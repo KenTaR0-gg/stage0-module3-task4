@@ -8,11 +8,9 @@ public class FormulaCreator {
         b=3;
         double z;
         double x;
-        double c;
         z = 9*a*a - 5*b + 2 + a - 7;
         x = (a + b - 4*a*b)/2;
-        c = z*x;
-        System.out.println(c);
+        System.out.println(z*x);
 
     }
 }
