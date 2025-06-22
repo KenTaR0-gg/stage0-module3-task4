@@ -4,8 +4,8 @@ public class FormulaCreator {
     public static void main(String[] args) {
         double a;
         double b;
-        a=2;
-        b=3;
+        a=2.0;
+        b=3.0;
         double z;
         double x;
         z = 9*a*a - 5*b + 2 + a - 7;
