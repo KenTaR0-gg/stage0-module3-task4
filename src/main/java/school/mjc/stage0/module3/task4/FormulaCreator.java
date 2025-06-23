@@ -7,10 +7,13 @@ public class FormulaCreator {
         a=2.0;
         b=3.0;
         double z;
-        double x;
-        z = 9*a*a - 5*b + 2 + a - 7;
-        x = (a + b - 4*a*b)/2;
-        System.out.println(z*x);
+  //      double x;
+
+        z = (9 * a * a - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2);
+
+       // z = 9 * a * a - 5 * b + 2 + a - 7;
+      //  x = (a + b - 4 * a * b) / 2;
+        System.out.println(z);
 
     }
 }
